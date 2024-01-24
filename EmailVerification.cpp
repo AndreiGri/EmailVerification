@@ -91,6 +91,9 @@ static bool emailVerification(string text, string lib, int n) {     // Мето�
 
 int main()
 {
+    // Установка цвета фона терминала и цвета текста
+    system("color 80");
+
     string email;
     cout << " Enter E-mail:\n ";                                   // Запрашиваем емейл и записываем его в переменную
     cin >> email;                                                  
